@@ -1828,9 +1828,9 @@ The following configuration change:
       'size' => 10,
       'renderMode' => 'tree',
       'treeConfig' => array(
-              'expandAll' => true,
               'parentField' => 'pid',
               'appearance' => array(
+                      'expandAll' => TRUE,
                       'showHeader' => TRUE,
               ),
       ),
